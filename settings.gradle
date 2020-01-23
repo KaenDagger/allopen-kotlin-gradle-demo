@@ -1,0 +1,12 @@
+pluginManagement {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+    plugins {
+        id 'io.quarkus' version "${quarkusPluginVersion}"
+        id 'quarkus.allopen' version "1.0"
+    }
+}
+rootProject.name='rest-kotlin-gradle'
