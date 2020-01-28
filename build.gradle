@@ -32,7 +32,7 @@ quarkusDev {
 }
 
 quarkusAllOpen{
-
+    annotations = ["javax.ws.rs.Path"]
 }
 
 java {
